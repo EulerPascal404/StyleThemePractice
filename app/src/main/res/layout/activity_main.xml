@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextViewCustom"
+        android:layout_width="143dp"
+        android:layout_height="24dp"
         android:layout_marginBottom="20dp"
         android:width="@dimen/textViewWidth"
         android:height="@dimen/textViewHeight"
@@ -17,13 +19,14 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.197" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
+        style="@style/EditTextCustom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="@dimen/editTextWidth"
@@ -40,37 +43,26 @@
 
     <Switch
         android:id="@+id/switch1"
+        style="@style/TextViewCustom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Toggle me"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="77dp"
-        android:layout_height="92dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.401"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintVertical_bias="0.232" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="186dp"
-        android:layout_height="306dp"
+        android:layout_width="332dp"
+        android:layout_height="382dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.927"
         app:srcCompat="@drawable/integral" />
 
     <RatingBar
