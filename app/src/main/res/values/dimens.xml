@@ -8,6 +8,9 @@
     <dimen name="bottomMargin">20dp</dimen>
     <dimen name="screenMargin">15dp</dimen>
     <dimen name="topPadding">10dp</dimen>
+    <dimen name="bottomPadding2">10dp</dimen>
+    <dimen name="bottomMargin2">20dp</dimen>
     <dimen name="editTextPadding">10dp</dimen>
+    <dimen name="topMargin1">20dp</dimen>
 
 </resources>
