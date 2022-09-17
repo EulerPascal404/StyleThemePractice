@@ -12,5 +12,7 @@
     <dimen name="bottomMargin2">20dp</dimen>
     <dimen name="editTextPadding">10dp</dimen>
     <dimen name="topMargin1">20dp</dimen>
-
+    <dimen name="topMargin2">30dp</dimen>
+    <dimen name="layout_2_width_1">320dp</dimen>
+    <dimen name="layout_height_1">60dp</dimen>
 </resources>
